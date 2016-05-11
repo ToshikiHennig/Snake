@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.toshiki.training.snake.start.StartController">
+   <children>
+      <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1280.0">
+         <center>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" style="-fx-background-image: url('File:C:/Users/a610237/Pictures/Snake/junglesnake.jpg');" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="startButton" alignment="CENTER" mnemonicParsing="false" onAction="#start" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: black;" text="Start" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="exitButton" alignment="CENTER" mnemonicParsing="false" onAction="#exit" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: black;" text="Exit" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="aboutButton" alignment="CENTER" mnemonicParsing="false" onAction="#about" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: black;" text="About" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+               <opaqueInsets>
+                  <Insets bottom="6.0" left="6.0" right="6.0" top="6.0" />
+               </opaqueInsets>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
